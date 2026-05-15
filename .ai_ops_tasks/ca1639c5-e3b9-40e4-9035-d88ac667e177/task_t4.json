@@ -1,0 +1,14 @@
+{
+  "ID": "t4",
+  "ExecutionID": "ca1639c5-e3b9-40e4-9035-d88ac667e177",
+  "Type": "query_logs",
+  "Subject": "related_logs",
+  "Description": "查询相关日志，参数携带地域和日志主题",
+  "Status": "completed",
+  "StepNo": 4,
+  "Result": "{\n  \"alerts\": null,\n  \"degraded\": true,\n  \"executed\": false,\n  \"hint\": \"replace this branch with MCP log invocation after validating runtime availability\",\n  \"reason\": \"runtime log query is not wired for safe local execution yet\",\n  \"task_type\": \"query_logs\"\n}",
+  "ErrorMessage": "",
+  "Owner": "persistent-runner",
+  "CreatedAt": "2026-05-05T11:05:30.8417259+08:00",
+  "UpdatedAt": "2026-05-05T11:05:31.2407738+08:00"
+}

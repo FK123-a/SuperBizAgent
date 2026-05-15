@@ -1,0 +1,9 @@
+{
+  "ID": "5e035a06-ef6b-4bce-b683-882695d607b4",
+  "Query": "\n\"1. 你是一个智能的服务告警运维分析助手,首先调用工具query_prometheus_alerts获取所有活跃的告警。\"\n\"2. 分别根据告警的名称调用工具query_internal_docs，获取告警名对应的处理方案。\"\n\"3. 完全遵循内部文档的内容进行查询和分析,不允许使用文档外的任何信息。\"\n\"4. 涉及到时间的参数都需要先通过工具get_current_time获取当前时间,再结合用户的时间要求进行传参。\"\n\"5. 涉及到日志的查询,需要先通过日志工具获取相关日志信息，参数必须携带地域和日志主题。\"\n\"6. 分别将告警对应查询到的信息进行总结分析,最后汇总所有告警和总结。\"",
+  "Status": "completed",
+  "FinalResult": "AIOps tasks completed\n[\n  {\n    \"task\": \"GetActiveAlerts\",\n    \"status\": \"completed\",\n    \"result\": \"execution=5e035a06-ef6b-4bce-b683-882695d607b4 task=t1 subject=GetActiveAlerts ok\"\n  },\n  {\n    \"task\": \"QueryInternalDocs\",\n    \"status\": \"completed\",\n    \"result\": \"execution=5e035a06-ef6b-4bce-b683-882695d607b4 task=t2 subject=QueryInternalDocs ok\"\n  },\n  {\n    \"task\": \"QueryRelatedLogs\",\n    \"status\": \"completed\",\n    \"result\": \"execution=5e035a06-ef6b-4bce-b683-882695d607b4 task=t3 subject=QueryRelatedLogs ok\"\n  },\n  {\n    \"task\": \"BuildReport\",\n    \"status\": \"completed\",\n    \"result\": \"execution=5e035a06-ef6b-4bce-b683-882695d607b4 task=t4 subject=BuildReport ok\"\n  }\n]",
+  "Round": 0,
+  "CreatedAt": "2026-05-05T00:11:28.9706389+08:00",
+  "UpdatedAt": "2026-05-05T00:11:29.0517612+08:00"
+}

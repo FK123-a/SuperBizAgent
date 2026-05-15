@@ -1,0 +1,14 @@
+{
+  "ID": "t1",
+  "ExecutionID": "f0c03fc1-e358-4b5c-8a92-5071e1e9b50c",
+  "Type": "query_active_alerts",
+  "Subject": "prometheus_alerts",
+  "Description": "获取所有活跃的Prometheus告警",
+  "Status": "completed",
+  "StepNo": 1,
+  "Result": "{\n  \"success\": true,\n  \"message\": \"Successfully retrieved 0 active alerts\"\n}",
+  "ErrorMessage": "",
+  "Owner": "persistent-runner",
+  "CreatedAt": "2026-05-05T16:36:47.1414674+08:00",
+  "UpdatedAt": "2026-05-05T16:37:02.1523735+08:00"
+}

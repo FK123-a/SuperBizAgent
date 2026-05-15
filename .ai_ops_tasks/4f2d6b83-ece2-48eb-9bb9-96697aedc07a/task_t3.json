@@ -1,0 +1,14 @@
+{
+  "ID": "t3",
+  "ExecutionID": "4f2d6b83-ece2-48eb-9bb9-96697aedc07a",
+  "Type": "query_internal_docs",
+  "Subject": "查询告警处理方案",
+  "Description": "根据每个告警名称查询内部文档，获取对应的处理方案",
+  "Status": "completed",
+  "StepNo": 3,
+  "Result": "{\n  \"items\": [\n    {\n      \"query\": \"\\n\\\"1. 你是一个智能的服务告警运维分析助手,首先调用工具query_prometheus_alerts获取所有活跃的告警。\\\"\\n\\\"2. 分别根据告警的名称调用工具query_internal_docs，获取告警名对应的处理方案。\\\"\\n\\\"3. 完全遵循内部文档的内容进行查询和分析,不允许使用文档外的任何信息。\\\"\\n\\\"4. 涉及到时间的参数都需要先通过工具get_current_time获取当前时间,再结合用户的时间要求进行传参。\\\"\\n\\\"5. 涉及到日志的查询,需要先通过日志工具获取相关日志信息，参数必须携带地域和日志主题。\\\"\\n\\\"6. 分别将告警对应查询到的信息进行总结分析,最后汇总所有告警和总结。\\\"\",\n      \"success\": true,\n      \"result\": \"[{\\\"id\\\":\\\"3ab768a8-ed45-4a36-bbc8-998dd8bed469\\\",\\\"content\\\":\\\"# 服务下线\\\\n告警解释：服务下线可能因为服务panic，导致pod重启造成的\\\\n解决方案：\\\\n1. 根据关键字\\\\\\\"panic\\\\\\\"进行最近1小时的日志搜索\\\\n2. 根据panic日志内容分析是什么bug导致的panic\\\",\\\"meta_data\\\":{\\\"_extension\\\":\\\".md\\\",\\\"_file_name\\\":\\\"告警处理手册.md\\\",\\\"_source\\\":\\\"C:/Users/fangke/Downloads/SuperBizAgent-release-2026-03-22/SuperBizAgent-release-2026-03-22/internal/ai/cmd/knowledge_cmd/docs/告警处理手册.md\\\",\\\"title\\\":\\\"服务下线\\\"}}]\"\n    }\n  ],\n  \"task_type\": \"query_internal_docs\"\n}",
+  "ErrorMessage": "",
+  "Owner": "persistent-runner",
+  "CreatedAt": "2026-05-05T11:04:50.2390065+08:00",
+  "UpdatedAt": "2026-05-05T11:04:50.6976513+08:00"
+}

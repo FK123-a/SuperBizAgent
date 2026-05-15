@@ -1,0 +1,13 @@
+{
+  "ID": "t1",
+  "ExecutionID": "d706b887-b9ec-4695-a971-aca0b88b7e09",
+  "Subject": "Query active alerts from Prometheus",
+  "Description": "Call query_prometheus_alerts to get all active alerts.",
+  "Status": "completed",
+  "StepNo": 1,
+  "Result": "execution=d706b887-b9ec-4695-a971-aca0b88b7e09 task=t1 subject=Query active alerts from Prometheus ok",
+  "ErrorMessage": "",
+  "Owner": "persistent-runner",
+  "CreatedAt": "2026-05-05T00:56:09.1517613+08:00",
+  "UpdatedAt": "2026-05-05T00:56:09.2035255+08:00"
+}

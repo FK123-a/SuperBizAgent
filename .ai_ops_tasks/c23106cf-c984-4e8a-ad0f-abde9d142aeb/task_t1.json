@@ -1,0 +1,14 @@
+{
+  "ID": "t1",
+  "ExecutionID": "c23106cf-c984-4e8a-ad0f-abde9d142aeb",
+  "Type": "query_active_alerts",
+  "Subject": "All active alerts",
+  "Description": "Query all active alerts from Prometheus",
+  "Status": "completed",
+  "StepNo": 1,
+  "Result": "{\n  \"success\": true,\n  \"message\": \"Successfully retrieved 0 active alerts\"\n}",
+  "ErrorMessage": "",
+  "Owner": "persistent-runner",
+  "CreatedAt": "2026-05-05T14:38:39.1871738+08:00",
+  "UpdatedAt": "2026-05-05T14:38:39.2343977+08:00"
+}

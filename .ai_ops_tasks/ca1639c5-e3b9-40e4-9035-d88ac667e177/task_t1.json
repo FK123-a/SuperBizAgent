@@ -1,0 +1,14 @@
+{
+  "ID": "t1",
+  "ExecutionID": "ca1639c5-e3b9-40e4-9035-d88ac667e177",
+  "Type": "query_active_alerts",
+  "Subject": "all_active_alerts",
+  "Description": "获取所有活跃的告警",
+  "Status": "completed",
+  "StepNo": 1,
+  "Result": "{\n  \"success\": true,\n  \"message\": \"Successfully retrieved 0 active alerts\"\n}",
+  "ErrorMessage": "",
+  "Owner": "persistent-runner",
+  "CreatedAt": "2026-05-05T11:05:30.8417259+08:00",
+  "UpdatedAt": "2026-05-05T11:05:30.8509947+08:00"
+}

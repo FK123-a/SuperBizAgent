@@ -1,0 +1,32 @@
+[
+  {
+    "ExecutionID": "5d59556f-a382-4a7d-86e3-395de9afba17",
+    "TaskID": "t3",
+    "BlockedByTaskID": "t1"
+  },
+  {
+    "ExecutionID": "5d59556f-a382-4a7d-86e3-395de9afba17",
+    "TaskID": "t4",
+    "BlockedByTaskID": "t1"
+  },
+  {
+    "ExecutionID": "5d59556f-a382-4a7d-86e3-395de9afba17",
+    "TaskID": "t4",
+    "BlockedByTaskID": "t2"
+  },
+  {
+    "ExecutionID": "5d59556f-a382-4a7d-86e3-395de9afba17",
+    "TaskID": "t5",
+    "BlockedByTaskID": "t3"
+  },
+  {
+    "ExecutionID": "5d59556f-a382-4a7d-86e3-395de9afba17",
+    "TaskID": "t5",
+    "BlockedByTaskID": "t4"
+  },
+  {
+    "ExecutionID": "5d59556f-a382-4a7d-86e3-395de9afba17",
+    "TaskID": "t6",
+    "BlockedByTaskID": "t5"
+  }
+]

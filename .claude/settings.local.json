@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(git clone *)",
+      "Bash(gh api *)",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/garrytan/gstack/main/setup -o /tmp/gstack_setup)",
+      "Bash(chmod +x /tmp/gstack_setup)",
+      "Bash(bash /tmp/gstack_setup)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(where gh *)",
+      "Read(//c/Program Files/GitHub CLI/**)"
+    ]
+  }
+}

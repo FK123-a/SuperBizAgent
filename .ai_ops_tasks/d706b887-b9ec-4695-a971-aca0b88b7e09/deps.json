@@ -1,0 +1,27 @@
+[
+  {
+    "ExecutionID": "d706b887-b9ec-4695-a971-aca0b88b7e09",
+    "TaskID": "t3",
+    "BlockedByTaskID": "t1"
+  },
+  {
+    "ExecutionID": "d706b887-b9ec-4695-a971-aca0b88b7e09",
+    "TaskID": "t4",
+    "BlockedByTaskID": "t1"
+  },
+  {
+    "ExecutionID": "d706b887-b9ec-4695-a971-aca0b88b7e09",
+    "TaskID": "t4",
+    "BlockedByTaskID": "t2"
+  },
+  {
+    "ExecutionID": "d706b887-b9ec-4695-a971-aca0b88b7e09",
+    "TaskID": "t5",
+    "BlockedByTaskID": "t3"
+  },
+  {
+    "ExecutionID": "d706b887-b9ec-4695-a971-aca0b88b7e09",
+    "TaskID": "t6",
+    "BlockedByTaskID": "t5"
+  }
+]
